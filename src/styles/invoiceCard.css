@@ -1,0 +1,35 @@
+.invoice-card {
+    background: rgba(240, 238, 238, 0.902);
+    padding: 15px;
+    display: flex;flex-direction: column;
+    box-shadow: 0 4px 6px rgba(198, 198, 198, 0.1);
+  }
+  .invoice-card-invoice-id{
+    margin-bottom: 10px;
+  }
+
+
+
+
+  .invoice-edit-add-div{
+    display: flex;justify-content: center;align-items: center;
+    width: 100vw;
+    margin-top: 10px;gap: 10px;
+  }
+  .edit-button {
+    background-color:rgba(255, 255, 255, 0);
+    font-size: 45px;border: none;
+  }
+  .edit-button:hover,.add-button:hover{
+    cursor: pointer;
+    scale: 1.1;
+  }
+  .add-button{
+    background-color:rgba(255, 255, 255, 0);
+    font-size: 40px;border: none;
+  }
+
+
+  .invoice-card-customer-name{
+    margin-top: 10px;
+  }
