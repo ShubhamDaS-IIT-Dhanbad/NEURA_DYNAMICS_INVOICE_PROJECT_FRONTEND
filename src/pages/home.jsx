@@ -4,6 +4,7 @@ import { fetchInvoices } from '../redux/features/InvoiceData.jsx';
 import InvoiceCard from '../components/invoiceCard.jsx';
 import '../styles/home.css';
 
+import { MdDelete } from "react-icons/md";
 function Home() {
   const dispatch = useDispatch();
   const { invoiceData: invoices, loading, error } = useSelector((state) => state.invoices);
@@ -32,3 +33,4 @@ function Home() {
 }
 
 export default Home;
+
